@@ -1,2 +1,7 @@
-__pycache__
-_bkup_*
+.devenv
+.direnv
+*.stl
+**/*.stl
+*.svg
+dist/**
+**/__pycache__

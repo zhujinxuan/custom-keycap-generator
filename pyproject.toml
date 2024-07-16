@@ -8,14 +8,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-build123d = "^0.5.0"
-project-paths = "^1.1.1"
-
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry.dev-dependencies]
-yacv-server = "^0.8.10"
-
+[tool.project-paths]
+stls="stls"
