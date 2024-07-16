@@ -19,5 +19,3 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dev-dependencies]
 yacv-server = "^0.8.10"
 
-[tool.project-paths]
-stls="stls"
